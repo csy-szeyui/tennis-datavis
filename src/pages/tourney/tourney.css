@@ -1,0 +1,135 @@
+#tourney_con1 {
+  width: 1600px;
+  height: 700px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+#tourney_dis {
+  margin: 15px 20px 0px 30px;
+  width: 1565px;
+  height: 690px;
+}
+
+#rank_rankvis {
+  margin: 15px 20px 0px 30px;
+  width: 1550px;
+  height: 400px;
+}
+
+#rank_match {
+  margin: 40px 20px 0px 30px;
+  width: 1565px;
+  height: 380px;
+}
+
+#tourney_table-md {
+  max-height: 450px;
+  overflow-y: auto;
+}
+
+.card-body {
+  overflow-y: auto;
+}
+
+#tourney {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+#player {
+  font-size: 24px;
+  text-align: center;
+}
+
+#result {
+  font-size: 16px;
+  text-align: center;
+}
+
+.tourney_th {
+  background-color: oklch(99% 0.022 115.321);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.tourney_th_dis {
+  background-color: oklch(99% 0.022 115.321);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.filterdiv {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.3s ease-out, opacity 0.35s ease-out;
+}
+
+.filterdiv.open {
+  max-height: 500px;
+  overflow: visible;
+  opacity: 1;
+  padding: 15px 0px 5px 10px;
+  border-radius: 12px;
+}
+
+.searchs {
+  display: flex;
+  width: 600px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#searchbar {
+  width: 700px;
+}
+
+#filter_btn {
+  width: 50px;
+  height: 45px;
+  margin-left: 10px;
+  font-size: 30px;
+}
+
+#reset_btn {
+  height: 45px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.foption {
+  display: flex;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.option_format {
+  padding-right: 10px;
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+.option_head {
+  padding-right: 13px;
+  font-size: 15px;
+}
+
+.cb_format {
+  margin-right: 3px;
+}
+
+.option_slider {
+  margin-left: 10px;
+  padding-right: 20px;
+  width: 200px;
+}
+
+#month_select {
+  height: 22px;
+}

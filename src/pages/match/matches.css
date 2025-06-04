@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Poiret+One&display=swap");
+
+#player_con1 {
+  width: 1600px;
+  height: 700px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+#player_dis {
+  margin: 15px 20px 0px 30px;
+  width: 1565px;
+  height: 690px;
+}
+
+.search_card {
+  min-width: 450px;
+  max-width: 450px;
+  margin-right: 10px;
+  border-radius: 12px;
+}
+
+#player_result {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  margin-left: 45px;
+  height: 100%;
+}
+#player_result.center {
+  justify-content: center; /* Center the message horizontally */
+  align-items: center; /* Center the message vertically */
+}
+.card-body {
+  overflow-y: auto;
+}
+
+#tourney {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.filterdiv {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.3s ease-out, opacity 0.35s ease-out;
+  margin-left: 45px;
+  margin-right: 37px;
+}
+
+.filterdiv.open {
+  max-height: 500px;
+  overflow: visible;
+  opacity: 1;
+  padding: 15px 0px 5px 10px;
+  border-radius: 12px;
+}
+
+.listopt {
+  max-height: 500px;
+  overflow: visible;
+  opacity: 1;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.player_option {
+  overflow: hidden;
+  opacity: 0;
+  max-height: 0;
+}
+
+.player_option.open {
+  max-height: 500px;
+  overflow: visible;
+  opacity: 1;
+  margin-top: 0;
+}
+
+.searchs {
+  display: flex;
+  width: 600px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+#searchbar {
+  margin-left: 45px;
+  width: 700px;
+}
+
+#filter_btn {
+  width: 50px;
+  height: 45px;
+  margin-left: 10px;
+  font-size: 30px;
+}
+
+#reset_btn {
+  height: 45px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.foption {
+  display: flex;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.dropdown-content > .loption {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.loption {
+  display: flex;
+}
+
+#lreset_btn {
+  height: 35px;
+  font-size: 14px;
+}
+
+.option_format {
+  padding-right: 10px;
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+.option_head {
+  padding-right: 13px;
+  font-size: 15px;
+}
+
+.option_format_l {
+  padding-right: 10px;
+  font-size: 14px;
+  align-items: center;
+}
+
+.option_head_l {
+  padding-right: 13px;
+  font-size: 15px;
+  align-items: center;
+}
+
+.option_head_l_n {
+  padding-right: 13px;
+  margin-top: 2px;
+  font-size: 15px;
+  align-items: center;
+}
+
+.cb_format {
+  margin-right: 3px;
+}
+
+.option_slider {
+  margin-left: 10px;
+  padding-right: 5px;
+  width: 170px;
+}
+
+.nation_l {
+  margin-right: 10px;
+}
+
+#month_select {
+  height: 22px;
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: #555555;
+  margin: 0;
+}
+
+.pname {
+  font-family: "Poiret One", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 24px;
+  font-style: normal;
+  color: #4e4e4ee8;
+}
+
+.pname_link {
+  font-family: "Poiret One", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 24px;
+  font-style: normal;
+  color: #2e8602;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.switch {
+  display: flex;
+  align-items: center;
+}
+
+.titletoggle {
+  margin-right: 20px;
+}
+
+.rank_button > button {
+  margin: 0px 10px 0px 10px;
+}

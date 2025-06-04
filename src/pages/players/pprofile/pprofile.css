@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Poiret+One&display=swap");
+
+#player_con1 {
+  width: 1600px;
+  height: 700px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+#player_dis {
+  margin: 15px 20px 0px 30px;
+  width: 1565px;
+  height: 690px;
+}
+.pp_ranking_card {
+  margin-top: 10px;
+  max-width: 1535px;
+  border-radius: 12px;
+  height: auto;
+}
+
+.pp_info_card {
+  margin-top: 10px;
+  max-width: 1535px;
+  border-radius: 12px;
+  max-height: 135px;
+}
+
+.card-body {
+  overflow-y: auto;
+}
+
+.info {
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  padding-top: 5px;
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: #555555;
+  margin: 0;
+}
+
+.playername {
+  font-family: "Poiret One", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 28px;
+  font-style: normal;
+  color: #2e8602;
+}
+
+.pp_rc_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ppranking,
+#ppbreakdown,
+#pptotal,
+#ppavg,
+#pprecord {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  display: none;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+
+#ppranking.open,
+#ppbreakdown.open,
+#pptotal.open,
+#ppavg.open,
+#pprecord.open {
+  opacity: 1;
+  max-height: 100%;
+  overflow: visible;
+  margin-top: 0;
+  padding-top: 10px;
+  display: block;
+}
+
+.load {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  text-align: center;
+  display: table;
+  margin: 0 auto;
+}

@@ -1,0 +1,53 @@
+#rank_con1 {
+  width: 1600px;
+  height: 800px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+#rank_ranking {
+  margin: 15px 0px 0px 30px;
+  width: 550px;
+  height: 350px;
+}
+
+#rank_rankvis {
+  margin: 15px 20px 0px 30px;
+  width: 1550px;
+  min-height: 700px;
+}
+
+#rank_match {
+  margin: 20px 20px 0px 30px;
+  width: 1565px;
+  height: 400px;
+}
+
+#rank_table-md {
+  min-height: 295px;
+  overflow-y: auto;
+}
+
+#tourney {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+#player {
+  font-size: 24px;
+  text-align: center;
+}
+
+#result {
+  font-size: 16px;
+  text-align: center;
+}
+
+.rank_th {
+  background-color: oklch(99% 0.022 115.321);
+  position: sticky;
+  top: 0; /* Sticks the header to the top */
+  z-index: 1; /* Ensures the header is above other rows */
+}

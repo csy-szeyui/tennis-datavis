@@ -1,0 +1,51 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@plugin "daisyui/theme" {
+  name: "tennis";
+  default: true;
+  prefersdark: false;
+  color-scheme: "light";
+  --color-base-100: oklch(99% 0.022 115.321);
+  --color-base-200: oklch(93.39% 0.1129 118.07);
+  --color-base-300: oklch(90% 0.29 115.321);
+  --color-base-content: oklch(21% 0.006 285.885);
+  --color-primary: oklch(87% 0.276 115.665);
+  --color-primary-content: oklch(34% 0.187 124.589);
+  --color-secondary: oklch(68% 0.169 237.323);
+  --color-secondary-content: oklch(20% 0.09 240.876);
+  --color-accent: oklch(85% 0.276 119.665);
+  --color-accent-content: oklch(20% 0.276 115.665);
+  --color-neutral: oklch(70% 0.2 126.684);
+  --color-neutral-content: oklch(100% 0 0);
+  --color-info: oklch(74% 0.16 232.661);
+  --color-info-content: oklch(20% 0.066 243.157);
+  --color-success: oklch(72% 0.233 136.85);
+  --color-success-content: oklch(36% 0.101 131.063);
+  --color-warning: oklch(82% 0.189 43.429);
+  --color-warning-content: oklch(32% 0.112 45.904);
+  --color-error: oklch(81% 0.154 11.428);
+  --color-error-content: oklch(27% 0.105 12.094);
+  --radius-selector: 0.5rem;
+  --radius-field: 0.5rem;
+  --radius-box: 1rem;
+  --size-selector: 0.28125rem;
+  --size-field: 0.28125rem;
+  --border: 1px;
+  --depth: 1;
+  --noise: 0;
+}
+
+#container {
+  margin-top: 80px;
+  margin-left: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+#home {
+  margin-right: 30px;
+  width: 1610px;
+  height: 785px;
+  background-color: rgb(237, 248, 191);
+}
