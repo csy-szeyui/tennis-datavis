@@ -1,5 +1,7 @@
 React.js Frontend (Vite buildtool, Redux state management, React Router routing)
+
 Python Backend (Flask framework)
+
 PostgreSQL database
 
 # Citations
@@ -13,7 +15,7 @@ PostgreSQL database
 2. One-handed Backhand Player Rankings from Tennis Abstract (https://tennisabstract.com/reports/oneHandBackhandRankings.html)
 3. ATP Surface Speed Ratings from Tennis Abstract (https://tennisabstract.com/reports/atp_surface_speed.html)
 
-# Database Setup:
+# Database Setup
 
 - with psql, run
 
