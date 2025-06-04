@@ -1,10 +1,8 @@
-# React.js Frontend (Vite buildtool, Redux state management, React Router routing)
+React.js Frontend (Vite buildtool, Redux state management, React Router routing)
+Python Backend (Flask framework)
+PostgreSQL database
 
-# Python Backend (Flask framework)
-
-# PostgreSQL database
-
-Citations:
+# Citations
 
 - Icon used in frontend web application: Flaticon.com
 
@@ -15,7 +13,7 @@ Citations:
 2. One-handed Backhand Player Rankings from Tennis Abstract (https://tennisabstract.com/reports/oneHandBackhandRankings.html)
 3. ATP Surface Speed Ratings from Tennis Abstract (https://tennisabstract.com/reports/atp_surface_speed.html)
 
-Database Setup:
+# Database Setup:
 
 - with psql, run
 
@@ -23,7 +21,7 @@ Database Setup:
 
 - modify dbname, user, password of psycopg2.connect in pages\api.py file according to your own setup
 
-How to run web application:
+# How to Run Web Application
 
 1. run pages\api.py file to run backend code
 2. run npm run dev in terminal for frontend application
@@ -33,8 +31,6 @@ How to run web application:
 - Database: tennis.sql
 
 Chan Sze Yui_57140032_24CS118_Web Application for Visualizing Tennis Data
-
-======
 
 # React + Vite
 
