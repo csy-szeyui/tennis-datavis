@@ -1,10 +1,14 @@
 # tennis-datavis
 
+Web Application for Visualizing Tennis Data (BSc Computer Science Final-Year Project)
+
 React.js Frontend (Vite buildtool, Redux state management, React Router routing)
 
 Python Backend (Flask framework)
 
 PostgreSQL database
+
+9/4/2025
 
 # Citations
 
@@ -15,7 +19,7 @@ PostgreSQL database
 1. ATP Tennis Rankings, Results, and Stats dataset from Jeff Sackmann / Tennis Abstract (https://github.com/JeffSackmann/tennis_atp)
 
    The data used in the database is excerpted from the original dataset.
-   
+
 2. One-handed Backhand Player Rankings from Tennis Abstract (https://tennisabstract.com/reports/oneHandBackhandRankings.html)
 3. ATP Surface Speed Ratings from Tennis Abstract (https://tennisabstract.com/reports/atp_surface_speed.html)
 
@@ -23,7 +27,7 @@ PostgreSQL database
 
 1. With psql, run
 
-     `psql -U username -d database_name -f /path/to/tennis.sql`
+   `psql -U username -d database_name -f /path/to/tennis.sql`
 
 2. Modify dbname, user, password of psycopg2.connect in pages\api.py file according to your own setup
 
